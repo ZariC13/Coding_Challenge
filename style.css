@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.box {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+header,
+nav {
+    text-align: center;
+}
+
+header img {
+    height: 90px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+header h2 {
+    color: lime;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: lime;
+    padding: 10px;
+}
+
+button {
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+section {
+    color: white;
+    font-size: small;
+    margin: 12px 0;
+}
+
+section h3 {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+section input {
+    cursor: pointer;
+}
+
+.charge {
+    border: 1px;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 4px;
+    background-color: transparent;
+}
+
+.charge.full {
+    background-color: limegreen;
+    width: 50%;
+}
+
+.charge.half {
+    background-color: orange;
+    width: 30%;
+}
+
+.charge.low {
+    background-color: rgb(233, 70, 70);
+    width: 15%;
+}
